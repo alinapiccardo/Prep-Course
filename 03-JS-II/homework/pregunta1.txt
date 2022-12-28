@@ -1,0 +1,12 @@
+* `for`
+- El bucle for es una estructura de repeticion que ejecuta un bloque de codigo un numero determinado de veces.
+- Los ciclos se repiten hasta que la condición especificada se evalúe como false 
+
+* `&&`
+- Es un operador lógico llamado AND, que al comparar dos expresiones se devuelve true si ambas son true. De lo contrario, devuelve false.
+
+* `||`
+- Es un operador lógico llamado OR, que al comparar dos expresiones se devuelve true si al menos una de las dos es true. De lo contrario, devuelve false.
+
+* `!`
+- Es un operador lógico llamado NOT, que al comparar una expresión se devuelve true si la expresión es false y devuelve false si la expresión es true.
