@@ -1,0 +1,9 @@
+* Arrays: 
+- Los arrays son estructuras de datos que almacenan un conjunto de elementos del mismo tipo, son objetos 
+similares a una lista con sus propios métodos para efectuar disferentes operaciones.
+- Tanto la longitud como el tipo de los elementos de un array son variables. 
+- Los elementos de un array se identifican mediante un índice que indica la posición del elemento en el array, 
+este indice empieza con 0 y termina en la cantidad de elementos del array -1.
+- El arreglo es un tipo de dato pero no un tipo de dato nativo al igual que number o string, pero podemos operar con el al igual que con los nativos. 
+- Los arrays son objetos, por lo tanto son dinámicos, es decir, podemos agregar o eliminar elementos de un array en cualquier momento.
+
