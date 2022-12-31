@@ -1,0 +1,20 @@
+* Objetos: Los objetos en Javascript son una colección de datos relacionados que generalmente consta de algunas variables y funciones,
+a los que denominamos las propiedades (variables) y metodos (funciones) dentro de los objetos. Los objetos son una forma de agrupar datos y funciones relacionadas, y de representar entidades del mundo real, como un usuario, un artículo o un auto.
+Los objetos son una colección de propiedades, y una propiedad es una asociación entre un nombre (o clave) y un valor. 
+En otras palabras, un objeto es una colección de pares nombre/valor, y un nombre puede ser usado para acceder al valor asociado. 
+
+* Propiedades: Las propiedades de un objeto son las variables que se encuentran dentro del mismo, y se pueden acceder a ellas de dos formas:
+1) a traves de la notación de puntos: objeto.propiedad o objeto.propiedad = valor y 2) a traves de la notación de corchetes: objeto['propiedad'] o objeto['propiedad'] = valor
+
+* Métodos: Los métodos son las funciones que se encuentran dentro de un objeto, y se pueden acceder a ellas de dos formas:
+1) a traves de la notación de puntos: objeto.metodo() o 2) a traves de la notación de corchetes: objeto['metodo']()
+
+* Bucle `for…in`: Itera sobre las propiedades enumerables de un objeto, en el orden de inserción, por lo que se usa para iterar sobre cada par clave-valor en un objeto.
+su sintaxis es:
+for (variable in objeto)
+  declaraciones 
+Para cada propiedad distinta, ejecuta las declaraciones.
+
+* Notación de puntos vs notación de corchetes: La notación de puntos es una forma de acceder a las propiedades de un objeto, y la notación de corchetes es otra forma de acceder a las propiedades de un objeto. 
+La notación de puntos es más fácil de leer y escribir, pero la notación de corchetes es necesaria cuando el nombre de la propiedad está almacenado en una variable, o cuando el nombre de la propiedad contiene caracteres especiales o espacios.
+La sintaxis de la notación de puntos es: objeto.propiedad y la sintaxis de la notación de corchetes es: objeto['propiedad'].
