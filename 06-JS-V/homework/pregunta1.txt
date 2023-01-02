@@ -1,0 +1,15 @@
+* `prototype`: Cada vez que creamos un nuevo objeto de clase con métodos, estamos recreando esos 
+métodos en la memoria, por lo que la memoria se puede acumular muy rápido.
+A traves de un prototype podemos acceder a los métodos de una clase, sin tener que crear un nuevo
+por que las clases tienen 1 forma de establecer un método una vez y dar acceso a cada objeto de esa clase a esos métodos.
+Cada clase tiene una propiedad `prototype`, que luego podemos establecer en los metodos. 
+Los cambios realizados en el Object prototipo son vistos por todos los objetos de la cadena de prototipos, 
+a no ser que las propiedades y métodos sujetos a esos cambios hayan sido sobreescritos más abajo en la cadena.
+
+* _Constructors_ (de Clases): Los constructores son funciones que se utilizan para crear nuevos objetos.
+Los constructores se utilizan para crear nuevos objetos de una clase. 
+Los constructores se llaman con la palabra clave `new`, y se ejecutan con los siguientes pasos:
+    1. Se crea un nuevo objeto vacío.
+    2. Se establece el prototipo del objeto vacío al prototipo del constructor.
+    3. Se establece el contexto de `this` al objeto vacío.
+    4. Si la función constructora no devuelve un objeto, se devuelve `this`.
