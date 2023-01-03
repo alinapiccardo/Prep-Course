@@ -1,0 +1,95 @@
+body {
+	margin: 0 50px;
+	padding: 0 50px;
+	font-family: "Source Code Pro", monospace;
+	background-color: #fff9f3;
+}
+
+h1 {
+	font-family: "Rubik", sans-serif;
+	font-size: 70px;
+	color: #1f1f1f;
+	background-color: #ffa947;
+	padding: 10px;
+	text-align: center;
+}
+
+.section1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.section1 img {
+	width: 200px;
+	border-radius: 10px;
+	border: 10px solid #ffa947;
+	padding: 10px;
+}
+
+.section1 p {
+	padding: 60px;
+	font-size: 30px;
+	text-decoration: underline solid #ffa947 15px;
+}
+
+.section2 {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: left;
+}
+
+h2 {
+	font-family: "Rubik", sans-serif;
+	font-weight: 600;
+	font-size: 30px;
+	color: #1f1f1f;
+	text-decoration: underline solid #ffa947 15px;
+	padding: 10px;
+	margin-right: 100px;
+	margin-top: 0px;
+}
+
+ul {
+	margin-bottom: 20px;
+	list-style: none;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+.expLab ul li {
+	color: #1f1f1f88;
+	list-style: circle;
+}
+
+.skills li {
+	color: #1f1f1f88;
+	list-style: circle;
+}
+
+h3 {
+	font-family: "Rubik", sans-serif;
+	font-weight: 600;
+	font-size: 30px;
+	color: #1f1f1f;
+	text-decoration: underline solid #ffa947 15px;
+	padding: 10px;
+	margin-right: 100px;
+	margin-top: 0px;
+}
+
+.section3 {
+	border: 2px solid #ffa947;
+	background-color: #fee3c979;
+	margin-bottom: 50px;
+}
+
+.section3 p {
+	padding: 10px 70px;
+	text-align: justify;
+}
